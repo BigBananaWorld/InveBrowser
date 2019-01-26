@@ -1,0 +1,193 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    scroll-behavior: smooth;
+    font-family: "PingFang SC", "Microsoft YaHei", "arial", "sans-serif", "SimHei";
+    background-color: #F5F6FA;
+}
+
+
+li {
+    list-style-type: none;
+}
+
+a,a:hover,a:active {
+    text-decoration: none;
+}
+
+input::-webkit-input-placeholder,
+textarea::-webkit-input-placeholder {
+    color: #AEAEAE;
+    font-family: "PingFang SC", "Microsoft YaHei", "arial", "sans-serif", "SimHei";
+}
+
+input:-moz-placeholder,
+textarea:-moz-placeholder {
+    color: #AEAEAE;
+    font-family: "PingFang SC", "Microsoft YaHei", "arial", "sans-serif", "SimHei";
+}
+
+input::-moz-placeholder,
+textarea::-moz-placeholder {
+    color: #AEAEAE;
+    font-family: "PingFang SC", "Microsoft YaHei", "arial", "sans-serif", "SimHei";
+}
+
+input:-ms-input-placeholder,
+textarea:-ms-input-placeholder {
+    color: #AEAEAE;
+    font-family: "PingFang SC", "Microsoft YaHei", "arial", "sans-serif", "SimHei";
+}
+
+.left {
+    float: left;
+}
+
+.right {
+    float: right;
+}
+
+
+
+.gray {
+    -webkit-filter: grayscale(100%);
+    -moz-filter: grayscale(100%);
+    -ms-filter: grayscale(100%);
+    -o-filter: grayscale(100%);
+    filter: grayscale(100%);
+    filter: gray;
+}
+
+div {
+    box-sizing: border-box;
+}
+
+
+
+.text-right{
+    text-align: right;
+}
+
+.text-center{
+    text-align: center;
+}
+
+
+
+/*
+ * 清除浮动
+ */
+
+.clearfix:after {
+    content: "";
+    display: block;
+    clear: both;
+}
+
+
+/*
+ *字体大小
+ */
+
+.bold {
+    font-weight: bold;
+}
+
+
+
+/*
+ * 字体颜色
+ */
+
+.colorfff {
+    color: #fff;
+}
+
+.color2{
+    color:#222;
+}
+
+.color9{
+    color:#999;
+}
+
+.color3{
+    color:#333;
+}
+
+.colorA8B{
+    color:#A8B0BF;
+}
+.color306{
+    color:#3065C5;
+}
+
+
+
+/*  
+过渡效果
+*/
+
+.tranColor {
+    transition: color 0.2s;
+    -moz-transition: color 0.2s;
+    -webkit-transition: color 0.2s;
+    -o-transition: color 0.2s;
+}
+
+.tranShadow{
+    transition: box-shadow 0.2s;
+    -moz-transition: box-shadow 0.2s;
+    -webkit-transition: box-shadow 0.2s;
+    -o-transition: box-shadow 0.2s;
+}
+
+.tranOpacity{
+    transition: opacity  0.2s;
+    -moz-transition: opacity  0.2s;
+    -webkit-transition: opacity  0.2s;
+    -o-transition: opacity  0.2s;
+}
+
+.tranBack{
+    transition: background-color  0.2s;
+    -moz-transition: background-color  0.2s;
+    -webkit-transition: background-color  0.2s;
+    -o-transition: background-color  0.2s;
+}
+
+
+.tranAll {
+    transition: all 0.2s;
+    -moz-transition: all 0.2s;
+    -webkit-transition: all 0.2s;
+    -o-transition: all 0.2s;
+}
+
+/*
+vue的动画效果
+ */
+
+.show-enter-active,
+.show-leave-active {
+    transition: opacity .2s;
+}
+
+.show-enter,
+.show-leave-to {
+    opacity: 0;
+}
+
+/*
+公共样式
+ */
+.index{
+    padding-top:72px;
+}
